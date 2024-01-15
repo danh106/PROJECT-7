@@ -1,0 +1,270 @@
+
+
+/* responsive */
+
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .header_heading-left {
+        width: 400px;
+    }
+
+    .header_heading-support-link {
+        width: 60px;
+        box-sizing: border-box;
+    }
+
+    .header_heading-support {
+        margin: 0 20px 0 10px;
+        line-height: 26px;
+    }
+
+    .header_menu-list-li {
+        margin: 0 20px;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .header_menu-right {
+        padding-right: 8px;
+    }
+
+    
+
+    .footer__footer-heading-text {
+        font-size: 16px;
+    }
+
+    .footer__footer-li-ul {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 63.9375em) {
+    .body__header-no1-op-bottom {
+        display: none;
+    }
+
+    .body__header-no1 {
+        display: block;
+    }
+
+    .body__header-no1-line {
+        display: none;
+    }
+
+    .body__header-no2 {
+        display: block;
+    }
+    
+    .frame {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 46.25em) {
+    .header_heading-support {
+        display: none;
+    }
+
+    .header_heading-left {
+        margin-left: 20px;
+    }
+
+    .header_heading-search {
+        width: 220px;
+    }
+
+    .header_heading-cart, .header_heading-login {
+        width: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_heading-cart-text, .header_heading-login-text {
+        display: none;
+    }
+
+    .header_menu_list {
+        display: none;
+    }
+
+    .header_menu-left {
+        margin-left: 20px;
+    }
+
+    .header_menu-logo {
+        width: 80px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*  */
+
+    .product_2-body, .product_1-body {
+        display: block;
+    }
+
+    .product_1-body-left, .product_1-body-right {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .product_1-body-name, .product_1-body-price, .product_1-body-info {
+        font-size: 16px;
+    }
+
+    .product_1-body-img {
+        height: 180px;
+        width: 180px;
+    }
+
+    .product_1-body-info {
+        width: 150px;
+    }
+/* responsive footer */
+    .footer__footer-heading {
+        font-size: 12px;
+    }
+
+    .footer__footer-li {
+        font-size: 8px;
+    }
+
+    .footer__footer-li-icon-face, .footer__footer-li-icon-ytb {
+        font-size: 8px;
+    }
+
+    .footer__footer-propose {
+        margin: 0 10px;
+    }
+
+    .footer__footer {
+        margin: 0;
+    }
+
+    .footer__header_logoheader {
+        height: 40px;
+        width: 80px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+
+    .footer {
+        height: auto;
+    }
+}
+
+/*  */
+
+
+.nav_bars-btn {
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    font-size: 35px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    display: none;
+
+}
+
+.header_menu_list-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    transform: translateX(100%)
+}
+
+.header_menu-list-ul-mobile {
+    margin-top: 24px;
+}
+
+.header_mobile-list-li {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+    margin-left: 30px;
+    font-size: 1rem;
+}
+
+.nav_mobile-icon {
+    width: 28px;
+    height: 28px;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    font-size: 28px;
+    float: right;
+    padding-left: 280px;
+}
+
+.nav_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+.nav_input:checked~.header_menu_list-mobile{
+    transform: translateX(0%);
+}
+.nav_input:checked~.nav_overlay {
+    display: block;
+}
+
+.nav_input {
+    display: none;
+}
+
+@media (max-width: 46.25em) {
+
+    .nav_bars-btn {
+        display: block;
+    }
+
+    .body_first-two-left {
+        display: none;
+    }
+
+    .body_first-two-right {
+        display: none;
+    }
+
+    .qc {
+        display: none;
+    }
+
+    .details {
+        display: none;
+    }
+
+    .anhdau {
+        display: block;
+    }
+
+    .anh1 {
+        width: 100%;
+    }
+
+    .anh2, .anh3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mota {
+
+        font-size: 10px;
+    }
+
+    .mota h3 {
+        font-size: 12px;
+    }
+
+}
