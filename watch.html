@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project of group 7</title>
+    <link rel="stylesheet" href="./Watch/watch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="frame">
+                <!-- header -->
+                <div class="header_heading">
+                    <div class="header_heading-left">
+                        <div class="header_heading-support">
+                            <a href="http://127.0.0.1:5500/support.html" class="header_heading-support-link">Hỗ trợ</a>
+                        </div>
+
+                        <div class="header_heading-search">
+                            <input type="text" class="header_heading-search-input" placeholder="Tìm kiếm ... ">
+                            <i class="header_heading-search-icon fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                    <div class="header_heading-right">
+                        <div class="header_heading-cart">
+                            <i class="header_heading-cart-icon fa-solid fa-cart-shopping"></i>
+                            <a href="http://127.0.0.1:5500/cart.html" class="header_heading-cart-text">Giỏ hàng</a>
+                        </div>
+
+                        <div class="header_heading-login">
+                            <i class="header_heading-login-icon fa-regular fa-user"></i>
+                            <a href="http://127.0.0.1:5500/sign.html" class="header_heading-login-text">Đăng nhập</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- navbar menu -->
+                <div class="header_menu">
+                    <div class="header_menu-left">
+                        <div class="header_menu-logo">
+                            <a href="">D.Shop</a>
+                        </div>
+                    </div>
+                    <div class="header_menu-right">
+                        <div class="header_menu_list">
+                            <ul class="header_menu-list-ul">
+                                <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                                <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/phone.html">ĐIỆN
+                                        THOẠI</a></li>
+                                <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/watch.html">SMART
+                                        WATCH</a></li>
+                                <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/earphone.html">TAI
+                                        NGHE</a></li>
+                                <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/other.html">KHÁC</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                    
+                    <input type="checkbox" name="" class="nav_input" id="nav_bars-mobile">
+                    <label for="nav_bars-mobile" class="nav_bars-btn"><i class="fa-solid fa-bars"></i>
+                    </label>
+                    <label for="nav_bars-mobile" class="nav_overlay"></label>
+                    <div class="header_menu_list-mobile">
+                        <label for="nav_bars-mobile" class="nav_mobile-icon"><i class="fa-regular fa-circle-xmark"></i></label>
+                        <h2>MENU</h2>
+                        <ul class="header_menu-list-ul-mobile">
+                            <li class="header_mobile-list-li">
+                                <a href="http://127.0.0.1:5500/index.html"><i
+                                    class="body__header-icon-house icon fa-solid fa-house"></i></a>
+                                <a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                            <li class="header_mobile-list-li">
+                                <a href="http://127.0.0.1:5500/phone.html"><i class="fa-solid fa-mobile"></i></i></a>
+                                
+                                <a href="http://127.0.0.1:5500/phone.html">ĐIỆN THOẠI</a>
+                            </li>
+                            <li class="header_mobile-list-li">
+                                <a href="http://127.0.0.1:5500/watch.html"><i class="fa-solid fa-clock"></i></a>
+                                <a href="http://127.0.0.1:5500/watch.html">SMART WATCH</a>
+                            </li>
+                            <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/earphone.html"><i class="fa-solid fa-headphones"></i></a>
+                                <a href="http://127.0.0.1:5500/earphone.html">TAI NGHE</a>
+                            </li>
+                            <li class="header_mobile-list-li">
+                                <a href="http://127.0.0.1:5500/other.html"><i class="fa-solid fa-tag"></i></a>
+                                <a href="http://127.0.0.1:5500/other.html">KHÁC</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!----->
+        <div class="container">
+            <div class="smartwatch">
+                <p></p>
+                <h2>Smart Watch</h2>
+                <h1></h1>
+            </div>
+            <div class="boder">
+                <div class="boder-top">
+                    <div class="boder-left">
+                        <div class="boder-left-1">
+                            <P>Đồng hồ thông minh định vị trẻ em Kids life</P>
+                            <h2>1,850,000₫</h2>
+                            <div class="boder-left-1-gh">
+                                <i class="boder-left-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="./Watch/img/1.png">
+                    </div>
+                    <div class="boder-right">
+                        <div class="boder-right-1">
+                            <p>Đồng hồ thông minh Redmi Watch 3 Active</p>
+                            <h2>1.290.000 đ</h2>
+                            <div class="boder-right-1-gh">
+                                <i class="boder-right-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="./Watch/img/2.png">
+                    </div>
+                </div>
+
+
+
+                <div class="boder-botom">
+                    <div class="boder-left-botom">
+                        <div class="boder-left-botom-1">
+                            <p>Đồng hồ thông minh Apple Watch SE 2022 GPS 44mm</p>
+                            <h2>6.690.000₫</h2>
+                            <div class="boder-left-botom-1gh">
+                                <i class="boder-left-botom-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="./Watch/img/3.png">
+                    </div>
+
+                    <div class="boder-right-botom">
+                        <div class="boder-right-botom-1">
+                            <p>Đồng hồ thông minh DT8 MAX</p>
+                            <h2>1.090.000 ₫</h2>
+                            <div class="boder-right-botom-1gh">
+                                <i class="boder-right-bottom-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="/Watch/img/4.png">
+                    </div>
+                </div>
+            </div>
+
+            <div class="TTSP">
+                <h2>Sản Phẩm Bán Chạy</h2> 
+            </div>
+            <div class="efect">
+                <div   style="background-image: url(./Watch/img/appel\ watch.jpg) ;"> 
+                </div>
+                <div   style="background-image: url(./Watch/img/befit.jpg);"></div>
+                <div style="background-image: url(./Watch/img/samsung.jpg);"></div>
+                <div  style="background-image: url(./Watch/img/xiaomi\ redmi.jpg);"></div>
+            </div>
+            
+
+            <div class="MSLSP">
+                <h2>Một Số Loại Sản Phẩm</h2>
+            </div>
+
+            <div class="body">
+                <div class="body-top">
+                    <div class="body-left">
+                        <div class="body-left-1">
+                            <p>Đồng hồ thông minh Apple Watch SE 2022 GPS 44mm</p>
+                            <h2>6.690.000₫</h2>
+                            <div class="body-left-1gh">
+                                <i class="body-left-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="/Watch/img/5.png">
+                    </div>
+
+                    <div class="body-right">
+                        <div class="body-right-1">
+                            <p> Apple Watch Pro </p>
+                            <h2> 1.090.000 ₫</h2>
+                            <div class="body-right-1gh">
+                                <i class="body-right-icon fa-solid fa-cart-shopping"></i>
+                                <a> Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="/Watch/img/6.png">
+                    </div>
+
+                </div>
+
+                <div class="body-botom">
+                    <div class="body-botom-left">
+                        <div class="body-botom-left-1">
+                            <p>Apple Watch Series 8 Aluminum</p>
+                            <h2>13.200.000₫</h2>
+                            <div class="body-botom-left-1gh">
+                                <i class="body-left-bottom-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="/Watch/img/7.png">
+                    </div>
+
+                    <div class="body-botom-right">
+                        <div class="body-botom-right-1">
+                            <p>Apple Watch Series 9</p>
+                            <h2>20.299.000đ</h2>
+                            <div class="body-botom-right-1gh">
+                                <i class="body-botom-right-icon fa-solid fa-cart-shopping"></i>
+                                <a>Giỏ Hàng</a>
+                            </div>
+                        </div>
+                        <img src="/Watch/img/8.png">
+                    </div>
+                </div>
+            </div>
+            <div class="qc">
+                <img class="qc-img" src="/Watch/img/qc.png">
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="frame">
+                <div class="footer__header">
+                    <div class="footer__header-logo">
+                        <p class="footer__header_logoheader">
+                            D.Shop
+                        </p>
+                    </div>
+                </div>
+
+                <!--  -->
+                <div class="footer__footer">
+                    <div class="footer__footer-propose">
+                        <div class="footer__footer-heading">
+                            <div class="footer__footer-heading-text">
+                                Đề xuất
+                            </div>
+                        </div>
+                        <div class="footer__footer-list">
+                            <ul class="footer__footer-ul">
+                                <li class="footer__footer-li">Cửa hàng</li>
+                                <li class="footer__footer-li">Phone</li>
+                                <li class="footer__footer-li">Smart watch</li>
+                                <li class="footer__footer-li">Tai nghe</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__footer-propose">
+                        <div class="footer__footer-heading">
+                            <div class="footer__footer-heading-text">
+                                Hỗ trợ
+                            </div>
+                        </div>
+                        <div class="footer__footer-list">
+                            <ul class="footer__footer-ul">
+                                <li class="footer__footer-li"><a href="http://127.0.0.1:5500/support.html">Hotline</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__footer-propose">
+                        <div class="footer__footer-heading">
+                            <div class="footer__footer-heading-text">
+                                Về chúng tôi
+                            </div>
+                        </div>
+                        <div class="footer__footer-list">
+                            <ul class="footer__footer-ul">
+                                <li class="footer__footer-li"><a href="http://127.0.0.1:5500/about.html">Project group
+                                        7</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__footer-propose">
+                        <div class="footer__footer-heading">
+                            <div class="footer__footer-heading-text">
+                                Liên hệ
+                            </div>
+                        </div>
+                        <div class="footer__footer-list">
+                            <ul class="footer__footer-ul">
+                                <li class="footer__footer-li">smartphoned@gmail.com</li>
+                                <li class="footer__footer-li">0705441635</li>
+                                <li class="footer__footer-li">Nhà học B, trường ĐH Vinh, 182 Lê Duẩn,<br> Bến Thủy, Tp.
+                                    Vinh, Nghệ An</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__footer-propose">
+                        <div class="footer__footer-heading">
+                            <div class="footer__footer-heading-text">
+                                1800 1234
+                            </div>
+                        </div>
+                        <div class="footer__footer-list">
+                            <ul class="footer__footer-ul">
+                                <li class="footer__footer-li">8:00 - 20:00</li>
+                                <li class="footer__footer-li">Hằng ngày</li>
+                                <li class="footer__footer-li footer__footer-li-icon">
+                                    <a href="https://www.facebook.com/profile.php?id=100088857667662"><i  class="footer__footer-li-icon-face fa-brands fa-facebook"></i></a>
+                                    <a href="https://www.youtube.com/@F8VNOfficial"><i class="footer__footer-li-icon-ytb fa-brands fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

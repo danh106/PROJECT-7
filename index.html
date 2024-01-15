@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project of group 7</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="frame">
+                    <!-- header -->
+                    <div class="header_heading">
+                        <div class="header_heading-left">
+                            <div class="header_heading-support">
+                                <a href="http://127.0.0.1:5500/support.html" class="header_heading-support-link">Hỗ trợ</a>
+                            </div>
+
+                            <div class="header_heading-search">
+                                <input type="text" class="header_heading-search-input" placeholder="Tìm kiếm ... ">
+                                <i class="header_heading-search-icon fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+
+                        <div class="header_heading-right">
+                            <div class="header_heading-cart">
+                                <i class="header_heading-cart-icon fa-solid fa-cart-shopping"></i>
+                                <a href="http://127.0.0.1:5500/cart.html" class="header_heading-cart-text">Giỏ hàng</a>
+                            </div>
+    
+                            <div class="header_heading-login">
+                                <i class="header_heading-login-icon fa-regular fa-user"></i>
+                                <a href="http://127.0.0.1:5500/login.html" class="header_heading-login-text">Đăng nhập</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- navbar menu -->
+                    <div class="header_menu">
+                        <div class="header_menu-left">
+                            <div class="header_menu-logo">
+                                <a href="">D.Shop</a>
+                            </div>
+                        </div>
+
+                        <div class="header_menu-right">
+                            <div class="header_menu_list">
+                                <ul class="header_menu-list-ul">
+                                    <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                                    <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/phone.html">ĐIỆN THOẠI</a></li>
+                                    <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/watch.html">SMART WATCH</a></li>
+                                    <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/earphone.html">TAI NGHE</a></li>
+                                    <li class="header_menu-list-li"><a href="http://127.0.0.1:5500/other.html">KHÁC</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <input type="checkbox" name="" class="nav_input" id="nav_bars-mobile">
+
+                        <label for="nav_bars-mobile" class="nav_bars-btn"><i class="fa-solid fa-bars"></i>
+                        </label>
+                
+                        <label for="nav_bars-mobile" class="nav_overlay"></label>
+
+                        <div class="header_menu_list-mobile">
+                            <label for="nav_bars-mobile" class="nav_mobile-icon"><i class="fa-regular fa-circle-xmark"></i></label>
+
+                            <ul class="header_menu-list-ul-mobile">
+                                <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+                                <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/phone.html">ĐIỆN THOẠI</a>
+                                </li>
+                                <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/watch.html">SMART WATCH</a>
+                                </li>
+                                <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/earphone.html">TAI NGHE</a>
+                                </li>
+                                <li class="header_mobile-list-li"><a href="http://127.0.0.1:5500/other.html">KHÁC</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <body class="body">
+                <div class="framebody">
+                    <div class="body_first">
+                        <div class="body_first-one">
+                            <!--  -->
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="./assets/img/img3.png" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="./assets/img/img1.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="./assets/img/img2.png" alt="Third slide">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+
+                    <div class="body_first-two">
+                        <!--  -->
+                        <div class="body_first-two-left">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="./assets/img/slide21.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="./assets/img/slide22.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="./assets/img/silde/6.jpg" alt="Third slide">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                        <!--  -->
+                        <div class="body_first-two-right">
+                            <div class="sildeShow">
+                                
+                            </div>
+                        </div>
+                        <!--  -->
+                    </div>
+                </div>
+            </body>
+        </div>
+        <!--  -->
+        <div class="body__center">
+            <div class="frame">
+                <div class="category-body">
+                    <div class="name_category">
+                        ĐIỆN THOẠI
+                    </div>
+
+                    <div class="product_1-body">
+                        <div class="product_1-body-left">
+                            <div class="product_1-body-infomation">
+                                <div class="product_1-body-name">
+                                    Realme 11 pro+
+                                </div>
+                                <div class="product_1-body-price">
+                                    14.990.000 vnđ
+                                </div>
+                                <div class="product_1-body-info">
+                                    camera 200mp bậc thầy zoom chuyên sâu
+                                </div>
+                            </div>
+                            <div class="product_1-body-image">
+                                <img class="product_1-body-img" src="assets/img/Rectangle 22.png" alt="">
+                            </div>
+                        </div>
+                        <div class="product_1-body-right">
+                            <div class="product_1-body-infomation">
+                                <div class="product_1-body-name">
+                                    Realme 11 pro+
+                                </div>
+                                <div class="product_1-body-price">
+                                    14.990.000 vnđ
+                                </div>
+                                <div class="product_1-body-info">
+                                    camera 200mp bậc thầy zoom chuyên sâu
+                                </div>
+                            </div>
+                            <div class="product_1-body-image">
+                                <img class="product_1-body-img" src="assets/img/Rectangle 23.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product_2-body">
+                        <div class="product_1-body-left">
+                            <div class="product_1-body-infomation">
+                                <div class="product_1-body-name">
+                                    Realme 11 pro+
+                                </div>
+                                <div class="product_1-body-price">
+                                    14.990.000 vnđ
+                                </div>
+                                <div class="product_1-body-info">
+                                    camera 200mp bậc thầy zoom chuyên sâu
+                                </div>
+                            </div>
+                            <div class="product_1-body-image">
+                                <img class="product_1-body-img" src="assets/img/Rectangle 24.png" alt="">
+                            </div>
+                        </div>
+                        <div class="product_1-body-right">
+                            <div class="product_1-body-infomation">
+                                <div class="product_1-body-name">
+                                    Realme 11 pro+
+                                </div>
+                                <div class="product_1-body-price">
+                                    14.990.000 vnđ
+                                </div>
+                                <div class="product_1-body-info">
+                                    camera 200mp bậc thầy zoom chuyên sâu
+                                </div>
+                            </div>
+                            <div class="product_1-body-image">
+                                <img class="product_1-body-img" src="./assets/img/Rectangle 25.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <!-- hai dang -->
+        <div class="duoi">
+          <div class="anhdau">
+              <div class="anh1"><h1>
+                  Xiaomi Smart Band 8</h1>
+              <h2>Thể thao kết hợp phong cách</h2>
+              <h3>Tìm hiểu thêm ></h3>
+              <img class="anh_tradition" src="assets/img/Untitled_design-removebg-preview.png">
+              </div>
+  
+              <div class="anh2">
+                  <h1>Apple Watch Ultra 2</h1>
+                  <h2>khung vỏ titan bền bỉ</h2>
+                  <h3>Tìm hiểu thêm ></h3>
+                  <img class="anh_tradition" src="assets/img/Rectangle 41.png">
+              </div>
+  
+              <div class="anh3">
+                  <h1>Realme buds T100</h1>
+                  <h2>lắng nghe trọn vẹn thanh sắc</h2>
+                  <h3>Tìm hiểu thêm ></h3>
+                  <img class="anh_tradition" src="assets/img/Rectangle 40.png">
+              </div>
+          </div>
+  
+          
+      </div>
+          <div class="qc">
+              <img class="qc-img" src="assets/img/Rectangle 44.png">
+          </div>
+        <!--  -->
+        
+        <footer class="footer">
+          <div class="frame">
+              <div class="footer__header">
+                  <div class="footer__header-logo">
+                      <p class="footer__header_logoheader">
+                          D.Shop
+                      </p>
+                  </div>
+              </div>
+
+              <!--  -->
+              <div class="footer__footer">
+                  <div class="footer__footer-propose">
+                      <div class="footer__footer-heading">
+                          <div class="footer__footer-heading-text">
+                              Đề xuất
+                          </div>
+                      </div>
+                      <div class="footer__footer-list">
+                          <ul class="footer__footer-ul">
+                              <li class="footer__footer-li">Cửa hàng</li>
+                              <li class="footer__footer-li">Phone</li>
+                              <li class="footer__footer-li">Smart watch</li>
+                              <li class="footer__footer-li">Tai nghe</li>
+                          </ul>
+                      </div>
+                  </div>
+                  
+                  <div class="footer__footer-propose">
+                      <div class="footer__footer-heading">
+                          <div class="footer__footer-heading-text">
+                              Hỗ trợ
+                          </div>
+                      </div>
+                      <div class="footer__footer-list">
+                          <ul class="footer__footer-ul">
+                              <li class="footer__footer-li"><a href="http://127.0.0.1:5500/support.html">Hotline</a></li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="footer__footer-propose">
+                      <div class="footer__footer-heading">
+                          <div class="footer__footer-heading-text">
+                              Về chúng tôi
+                          </div>
+                      </div>
+                      <div class="footer__footer-list">
+                          <ul class="footer__footer-ul">
+                              <li class="footer__footer-li"><a href="http://127.0.0.1:5500/about.html">Project group 7</a></li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="footer__footer-propose">
+                      <div class="footer__footer-heading">
+                          <div class="footer__footer-heading-text">
+                              Liên hệ
+                          </div>
+                      </div>
+                      <div class="footer__footer-list">
+                          <ul class="footer__footer-ul">
+                              <li class="footer__footer-li">smartphoned@gmail.com</li>
+                              <li class="footer__footer-li">0705441635</li>
+                              <li class="footer__footer-li">Nhà học B, trường ĐH Vinh, 182 Lê Duẩn,<br> Bến Thủy, Tp. Vinh, Nghệ An</li>
+                          </ul>
+                      </div>
+                  </div>
+
+                  <div class="footer__footer-propose">
+                      <div class="footer__footer-heading">
+                          <div class="footer__footer-heading-text">
+                              1800 1234
+                          </div>
+                      </div>
+                      <div class="footer__footer-list">
+                          <ul class="footer__footer-ul">
+                              <li class="footer__footer-li">8:00 - 20:00</li>
+                              <li class="footer__footer-li">Hằng ngày</li>
+                              <li class="footer__footer-li footer__footer-li-icon">
+                                  <a href="https://www.facebook.com/profile.php?id=100088857667662"><i  class="footer__footer-li-icon-face fa-brands fa-facebook"></i></a>
+                                  <a href="https://www.youtube.com/@F8VNOfficial"><i class="footer__footer-li-icon-ytb fa-brands fa-youtube"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+        <!-- js -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+           
+      </body>
+</html>
