@@ -33,6 +33,21 @@
 
 /* navbar header */
 
+.header_menu_list-mobile a{
+    color: #000;
+
+}
+.header_menu_list-mobile i {
+    color: #21a05a;
+    
+}
+.header_menu_list-mobile h2{
+  margin-left: 135px;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 .header_heading {
     height: var(--height-header-heading);
     display: flex;
@@ -724,6 +739,10 @@ a {
 
     .nav_bars-btn {
         display: block;
+    }
+
+    .frame2 {
+        display: none;
     }
 
     .earphone__top-header-box {
